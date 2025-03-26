@@ -15,12 +15,12 @@ const Home = () => {
     <div className="min-vh-100 d-flex flex-column">
       <Navbar />
       <Hero />
-      <Divider text="Our Features" />
-      <Cards />
-      <Divider />
-      <Tabs />
       <Divider text="Gallery" />
       <Carousel />
+      <Divider />
+      <Tabs />
+      <Divider text="Our Features" />
+      <Cards />
       <Divider />
       <Accordion />
       <Footer />
