@@ -14,7 +14,7 @@ const Accordion = () => {
     {
       id: 2,
       title: 'Question 2',
-      content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque dolores recusandae soluta, eius placeat minus totam inventore repellat assumenda saepe, magni, explicabo iusto. Est, architecto! Quo, similique. Aperiam, ipsum quas.'
+      content: 'Lorem ipsum dolor, sit amet sdfasdfconsectetur adipisicing elit. Atque dolores recusandae soluta, eius placeat minus totam inventore repellat assumenda saepe, magni, explicabo iusto. Est, architecto! Quo, similique. Aperiam, ipsum quas.'
     },
     {
       id: 3,
