@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple CSS-Only Multi-Page Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    /* Hide all pages initially */
+    .page {
+      display: none;
+      padding: 20px;
+    }
+
+    /* Show the targeted page */
+    #home:target, 
+    #about:target, 
+    #contact:target {
+      display: block;
+    }
+
+    /* Show home page by default */
+    #home {
+      display: block;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <section id="home" class="page">
+    <h1>Home Page</h1>
+    <p>This is the home page.</p>
+  </section>
+  
+  <section id="about" class="page">
+    <h1>About Page</h1>
+    <p>This is the about page.</p>
+  </section>
+  
+  <section id="contact" class="page">
+    <h1>Contact Page</h1>
+    <p>This is the contact page.</p>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Simple CSS-Only Website</p>
+  </footer>
+</body>
+</html>
